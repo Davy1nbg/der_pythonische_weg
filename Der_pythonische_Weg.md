@@ -184,17 +184,6 @@ Der effiziente Weg, eine Liste von Strings zu einem einzigen String zu verbinden
 
 ### Häufigkeiten zählen: `collections.Counter`
 
-* **Weniger idiomatisch (manuelles Zählen mit `dict`):**
-    ```python
-    meine_liste = ['a', 'b', 'a', 'c', 'b', 'a']
-    counts = {}
-    for item in meine_liste:
-        if item in counts:
-            counts[item] += 1
-        else:
-            counts[item] = 1
-    # counts = {'a': 3, 'b': 2, 'c': 1}
-    ```
 * **Idiomatisch mit `collections.Counter`:**
     ```python
     from collections import Counter
