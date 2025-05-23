@@ -218,4 +218,4 @@ Der effiziente Weg, eine Liste von Strings zu einem einzigen String zu verbinden
     ```
 
 ---
-🐍 2025 - Davy1Nbg
+🐍 2025 - Davy1nbg
